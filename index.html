@@ -8,7 +8,7 @@
         font-family: sans-serif;
       }
 
-      #main {
+      main {
         width: 1000px;
         margin: 10% auto;
         padding: 5%;
@@ -21,14 +21,14 @@
         padding: 0% 7%;
       }
 
-      #heading {
+      h1 {
         font-size: 70px;
         line-height: 70px;
         font-weight: 200;
         color: rgba(0, 0, 0, 0.6);
       }
 
-      #underline {
+      hr {
         border: 2px solid black;
         height: 1px;
         width: 100px;
@@ -41,17 +41,30 @@
         line-height: 45px;
         color: rgba(0, 0, 0, 0.5);
       }
+
+      #button {
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 35px;
+        background-color:  #4184e1;
+        color: #fff;
+        font-weight: 200;
+        border-radius: 100px;
+      }
     </style>
-  </head>
   <body>
-    <main id="main">
+  </head>
+    <main>
       <div id="content">
-        <h1 id="heading">Build your first chatbot in 10 minutes</h1>
-        <hr id="underline" />
+        <h1>Build your first chatbot in 10 minutes</h1>
+        <hr/>
         <p id="description">
           Have a bot answering questions from customers on your website within
           10 minutes of signing up for ChatBot
         </p>
+        <div id="button"> TRY NOW &rarr;</div>
       </div>
     </main>
   </body>
